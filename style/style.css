@@ -172,5 +172,41 @@
     border-width: 1px;
 }
 
-/*My current target style*
-/
+/*My current target style*/
+.my-current{
+    width: 1000px;
+    height: 1300px;
+    background-color: blanchedalmond;
+    margin: 80px 255px 80px 255px;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+}
+.current-text{
+    width: 800px;
+    margin-left: 100px;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    background-color: white;
+}
+.skill{
+    width: 300px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.skill-greet{
+    font-family: Azeret Mono;
+}
+.more{
+    font-weight: 800;
+    font-size: 14px;
+    font-family: Azeret Mono;
+    color: black;
+}
