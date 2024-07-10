@@ -175,7 +175,7 @@
 /*My current target style*/
 .my-current{
     width: 1000px;
-    height: 1300px;
+    height: 500px;
     background-color: blanchedalmond;
     margin: 80px 255px 80px 255px;
     text-align: center;
@@ -209,4 +209,51 @@
     font-size: 14px;
     font-family: Azeret Mono;
     color: black;
+}
+.my-next{
+    width: 1000px;
+    height: 670px;
+    margin: 80px 255px 80px 255px;
+    text-align: center;
+    padding-top: 30px;
+    align-items: center;
+}
+.container{
+    height: 530px;
+    gap: 10px;
+}
+.img-next1{
+    background-image: url(../assets/react.png);
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.img-next2{
+    background-image: url(../assets/nodejs.png);
+    width: 190px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-next3{
+    background-image: url(../assets/mongodb.png);
+    width: 120px;
+    height: 90px;
+    background-repeat: no-repeat;
+}
+.n-skill{
+    height: 120px;
+    border-color: rgb(180, 178, 178);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+.n-skill-text{
+    padding-left: 30px;
+    text-align: left;
+
 }
