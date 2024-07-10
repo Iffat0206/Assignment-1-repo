@@ -176,7 +176,6 @@
 .my-current{
     width: 1000px;
     height: 500px;
-    background-color: blanchedalmond;
     margin: 80px 255px 80px 255px;
     text-align: center;
     padding-top: 30px;
@@ -256,4 +255,44 @@
     padding-left: 30px;
     text-align: left;
 
+}
+/*support style*/
+.support{
+    width: 1000px;
+    height: 260px;
+    text-align:center ;
+    border-radius: 12px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 80px 255px 80px 255px;
+    padding:30px;
+    align-items: center;
+}
+.support-greet{
+    color: white;
+    font-family: Azeret Mono;
+    font-weight: bolder;
+}
+.input-field{
+    width: 650px;
+    height: 60px;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+.text-input{
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+.submit{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100px;
+    border: none;
 }
