@@ -296,3 +296,16 @@
     width: 100px;
     border: none;
 }
+/*footer*/
+.footer{
+    height: 50px;
+    background-color:rgba(13, 19, 33, 0.02) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.text{
+    font-weight: bold;
+    font-family: Azeret Mono;
+    font-size: 15px;
+}
